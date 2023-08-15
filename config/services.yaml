@@ -17,8 +17,11 @@ services:
         resource: '../src/'
         exclude:
             - '../src/DependencyInjection/'
-            - '../src/Entity/'
             - '../src/Kernel.php'
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+    App\Repository\GuardianArticleRepository:
+        bind:
+            $apiKey: '575aa34e-53a7-4e15-be8e-ac2398616ee2'  # todo: move to env variable

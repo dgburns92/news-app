@@ -2,7 +2,12 @@
 https://api-platform.com/
 
 ## setup
+install symfony cli on a mac:
+```
+brew install symfony-cli/tap/symfony-cli
+```
 
+install packages
 ```
 composer install
 ```

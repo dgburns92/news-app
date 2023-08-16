@@ -8,3 +8,6 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+
+/.phpcs-cache
+/phpcs.xml
